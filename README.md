@@ -1,4 +1,5 @@
 shiny-archer
 ============
 
-3D Graphics in Java
+Playing around with 2D & 3D Graphics in Java
+
