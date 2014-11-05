@@ -3,9 +3,9 @@ package test;
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-import gui.GameCanvas;
+import gui.GameCanvas2D;
 
-public class ConcreteCanvas extends GameCanvas {
+public class ConcreteCanvas extends GameCanvas2D {
 
 	/**
 	 * 

@@ -29,7 +29,7 @@ public class GameWindow extends Frame implements WindowListener {
 	static GraphicsConfiguration gc = gd.getDefaultConfiguration();
 	//==================================================================	
 
-	GameCanvas c; // GameCanvas
+	GameCanvas2D c; // GameCanvas
 
 	/**
 	 * GameWindow's default constructor. Sets the width and height to 800 by 600 respectively.
@@ -47,7 +47,7 @@ public class GameWindow extends Frame implements WindowListener {
 	 *@param width the width in pixels of the window
 	 *@param height the height in pixels of the window
 	 */
-	public GameWindow(GameCanvas c, GameWindowConfiguration cfg) {
+	public GameWindow(GameCanvas2D c, GameWindowConfiguration cfg) {
 		this.c = c;
 		setTitle(cfg.title);
 		WIDTH = cfg.width;

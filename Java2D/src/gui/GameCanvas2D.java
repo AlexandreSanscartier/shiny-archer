@@ -11,7 +11,7 @@ import java.awt.image.*;
  * The GameCanvas is where all the game rendering and updating is done. It's the main container for the game
  *@author Alexandre Sanscartier
  */
-public abstract class GameCanvas extends Canvas implements Runnable {
+public abstract class GameCanvas2D extends Canvas implements Runnable {
 
 	private static final long serialVersionUID = 1L;
 	/*==================================================================
@@ -45,7 +45,7 @@ public abstract class GameCanvas extends Canvas implements Runnable {
 	/*===================================================================
 	 * 			VARIABLES FOR DRAWING
 	 *===================================================================*/
-	static GameCanvas instance = null;
+	static GameCanvas2D instance = null;
 	GameWindow container;
 	final int WIDTH;
 	final int HEIGHT;
@@ -94,7 +94,7 @@ public abstract class GameCanvas extends Canvas implements Runnable {
 	 *  The default constructor for the GameCanvas. This sets the WIDTH and HEIGHT to 800 by 600 respectively
 	 * by default and is used as the default screen resolution. Should only be used if the game will always use the same resolution.
 	 */
-	public GameCanvas() {
+	public GameCanvas2D() {
 		super(gc);
 		WIDTH = 800;
 		HEIGHT = 600;
@@ -111,7 +111,7 @@ public abstract class GameCanvas extends Canvas implements Runnable {
 	 *@param height the height of the Canvas
 	 *
 	 */
-	public GameCanvas(int width, int height, GameWindow gw) {
+	public GameCanvas2D(int width, int height, GameWindow gw) {
 		super(gc);
 		WIDTH = width;
 		HEIGHT = height;
