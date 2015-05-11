@@ -6,7 +6,7 @@ public interface GameState {
 
 	public int getId(); // Get the Id of the GameState
 	
-	public void setName();
+	public void setName(String name);
 	public String getName();
 	
 	public void init(); // Init the GameState

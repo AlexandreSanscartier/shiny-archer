@@ -38,8 +38,8 @@ public abstract class GameCanvas2D extends Canvas implements Runnable {
 	 * 			VARIABLES FOR RETRIEVING INPUT
 	 *===================================================================*/
 	//Camera c = Camera.getInstance();
-	CanvasKeyboard board = CanvasKeyboard.getInstance();
-	CanvasMouse mousey = CanvasMouse.getInstance(this);
+	protected CanvasKeyboard board = CanvasKeyboard.getInstance();
+    protected CanvasMouse mousey = CanvasMouse.getInstance(this);
 	//=================================================================
 
 	/*===================================================================
